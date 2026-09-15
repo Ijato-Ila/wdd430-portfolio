@@ -2,6 +2,19 @@ import ProjectList from "../components/ProjectList";
 
 const projects = [
   {
+    title: "Book Discovery & Tracker",
+    description:
+      "A web application that helps readers discover books and organize their reading activity. It uses the Google Books API to provide featured books and search results, while users can view book details, track reading status, maintain a reading list, and filter books by category, author, and publication year.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Google Books API",
+      "Browser Storage",
+    ],
+    link: "https://ijato-ila.github.io/wdd330-MyFinalProject-BookTracker/",
+  },
+  {
     title: "Volunteer Management Platform",
     description:
       "A full-stack web application that helps users discover and participate in community service opportunities offered by different organizations. Users can browse organizations, projects, and categories, create accounts, access a dashboard, and volunteer for projects.",
@@ -15,19 +28,6 @@ const projects = [
       "CSS",
     ],
     link: "https://cse340-project-6868.onrender.com",
-  },
-  {
-    title: "Book Discovery & Tracker",
-    description:
-      "A web application that helps readers discover books and organize their reading activity. It uses the Google Books API to provide featured books and search results, while users can view book details, track reading status, maintain a reading list, and filter books by category, author, and publication year.",
-    technologies: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Google Books API",
-      "Browser Storage",
-    ],
-    link: "https://ijato-ila.github.io/wdd330-MyFinalProject-BookTracker/",
   },
   {
     title: "Express Task Manager 3.0",
